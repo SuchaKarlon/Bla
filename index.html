@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botany Project Report</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 50px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .project-page {
+            background-color: white;
+            width: 800px;
+            padding: 70px;
+            margin-bottom: 50px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            position: relative;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .project-page::before {
+            content: "";
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            bottom: 20px;
+            border: 5px double #333;
+            pointer-events: none;
+        }
+
+        h1 {
+            font-size: 28px;
+            text-decoration: underline;
+            margin-bottom: 30px;
+            color: #1a1a1a;
+        }
+
+        .image-placeholder {
+            width: 70%;
+            height: 280px;
+            border: 1px dashed #bbb;
+            background-color: #fdfdfd;
+            margin: 0 auto 35px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #888;
+            font-style: italic;
+        }
+
+        .classification-header {
+            color: #b3541e;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: underline;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .centered-content-block {
+            display: inline-block;
+            text-align: left;
+            max-width: 85%;
+            margin: 0 auto;
+        }
+
+        .classification-list {
+            font-size: 20px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        .classification-list b {
+            display: inline-block;
+            width: 120px;
+        }
+
+        .species-italic {
+            font-style: italic;
+        }
+
+        .features-list {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+
+        .features-list li {
+            font-size: 19px;
+            margin-bottom: 15px;
+            line-height: 1.5;
+            list-style-type: disc;
+        }
+
+        @media print {
+            body { background-color: white; padding: 0; }
+            .project-page { box-shadow: none; margin: 0; page-break-after: always; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="project-page">
+        <h1>The plant is Tagetes erecta</h1>
+        
+        <div class="image-placeholder">
+            [ Attach Photo of Marigold ]
+        </div>
+
+        <span class="classification-header">Classification.</span>
+        
+        <div class="centered-content-block">
+            <div class="classification-list">
+                <div><b>Kingdom:</b> Plantae</div>
+                <div><b>Division:</b> Angiosperms</div>
+                <div><b>Class:</b> Eudicots</div>
+                <div><b>Order:</b> Asterales</div>
+                <div><b>Family:</b> Asteraceae</div>
+                <div><b>Genus:</b> Tagetes</div>
+                <div><b>Species:</b> <span class="species-italic">erecta</span></div>
+            </div>
+
+            <ul class="features-list">
+                <li>It is an ornamental flowering plant known for its bright yellow and orange blooms.</li>
+                <li>The plant is widely used in India for making garlands and festival decorations.</li>
+                <li>Marigolds have a pungent scent that acts as a natural repellent against insects.</li>
+                <li>It is a hardy plant that thrives in full sunlight and well-drained soil.</li>
+                <li>The flowers are used to extract natural food coloring and dyes.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="project-page">
+        <h1>The plant is Solanum melongena</h1>
+        
+        <div class="image-placeholder">
+            [ Attach Photo of Brinjal/Eggplant ]
+        </div>
+
+        <span class="classification-header">Classification.</span>
+        
+        <div class="centered-content-block">
+            <div class="classification-list">
+                <div><b>Kingdom:</b> Plantae</div>
+                <div><b>Division:</b> Angiosperms</div>
+                <div><b>Class:</b> Eudicots</div>
+                <div><b>Order:</b> Solanales</div>
+                <div><b>Family:</b> Solanaceae</div>
+                <div><b>Genus:</b> Solanum</div>
+                <div><b>Species:</b> <span class="species-italic">melongena</span></div>
+            </div>
+
+            <ul class="features-list">
+                <li>Commonly known as Brinjal or Eggplant, it is a popular vegetable crop.</li>
+                <li>The plant is a delicate perennial that is often grown as an annual in temperate climates.</li>
+                <li>The fruit is botanically classified as a berry and contains numerous small seeds.</li>
+                <li>The skin of the fruit is typically glossy and ranges from deep purple to green or white.</li>
+                <li>It belongs to the "nightshade" family, which also includes tomatoes and potatoes.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="project-page">
+        <h1>The plant is Rosa indica</h1>
+        
+        <div class="image-placeholder">
+            [ Attach Photo of Rose ]
+        </div>
+
+        <span class="classification-header">Classification.</span>
+        
+        <div class="centered-content-block">
+            <div class="classification-list">
+                <div><b>Kingdom:</b> Plantae</div>
+                <div><b>Division:</b> Angiosperms</div>
+                <div><b>Class:</b> Eudicots</div>
+                <div><b>Order:</b> Rosales</div>
+                <div><b>Family:</b> Rosaceae</div>
+                <div><b>Genus:</b> Rosa</div>
+                <div><b>Species:</b> <span class="species-italic">indica</span></div>
+            </div>
+
+            <ul class="features-list">
+                <li>The Rose is known as the "Queen of Flowers" due to its beauty and fragrance.</li>
+                <li>The stems are usually armed with sharp prickles (commonly called thorns).</li>
+                <li>Leaves are alternate and pinnately compound with serrated edges.</li>
+                <li>Roses are widely cultivated for their ornamental value and for making perfumes.</li>
+                <li>Rose water and "Gulkand" are popular products derived from its petals.</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
